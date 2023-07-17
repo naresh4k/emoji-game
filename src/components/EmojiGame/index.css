@@ -1,0 +1,32 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+}
+
+.emoji-game-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.emojis-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.suggestion {
+  font: bold clamp(20px, 4vw, 35px) 'Verdana';
+  color: #fbc7d4;
+  text-align: center;
+  margin-top: 20px;
+}
